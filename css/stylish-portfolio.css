@@ -104,11 +104,70 @@ h6 {
   font-weight: 300;
 }
 
-.masthead .tw-myname span:hover {
-  background-color: #1d809f;
+.masthead span.tw-t:hover {
+  background-color: #28a745;
   color: white;
   transition: 0.3s;
-  padding: 10px;
+}
+
+.masthead span.tw-o:hover {
+  background-color: #17a2b8;
+  color: white;
+  transition: 0.3s;
+}
+
+.masthead span.tw-n:hover {
+  background-color: #007bff;
+  color: white;
+  transition: 0.3s;
+}
+
+.masthead span.tw-y:hover {
+  background-color: #6c757d;
+  color: white;
+  transition: 0.3s;
+}
+
+.masthead span.tw-w:hover {
+  background-color: #28a745;
+  color: white;
+  transition: 0.3s;
+}
+
+.masthead span.tw-a:hover {
+  background-color: #dc3545;
+  color: white;
+  transition: 0.3s;
+}
+
+.masthead span.tw-tt:hover {
+  background-color: #28a745;
+  color: white;
+  transition: 0.3s;
+}
+
+.masthead span.tw-t:hover {
+  background-color: #563d7c;
+  color: white;
+  transition: 0.3s;
+}
+
+.masthead span.tw-e:hover {
+  background-color: #007bff;
+  color: white;
+  transition: 0.3s;
+}
+
+.masthead span.tw-r:hover {
+  background-color: #ffc107;
+  color: white;
+  transition: 0.3s;
+}
+
+.masthead span.tw-s:hover {
+  background-color: #6c757d;
+  color: white;
+  transition: 0.3s;
 }
 
 .masthead .tw-myname span {

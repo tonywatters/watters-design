@@ -18,12 +18,62 @@
     padding: 0;
     font-weight: 300;
   }
-  .tw-myname span:hover {
-    background-color: #1d809f;
+  span.tw-t:hover {
+    background-color: #28a745;
     color: white;
     transition: 0.3s;
-    padding: 10px;
   }
+  span.tw-o:hover {
+    background-color: #17a2b8;
+    color: white;
+    transition: 0.3s;
+  }
+  span.tw-n:hover {
+    background-color:#007bff;
+    color: white;
+    transition: 0.3s;
+  } 
+  span.tw-y:hover {
+    background-color: #6c757d;
+    color: white;
+    transition: 0.3s;
+  }
+  span.tw-w:hover {
+    background-color: #28a745;
+    color: white;
+    transition: 0.3s;
+  }
+  span.tw-a:hover {
+    background-color: #dc3545;
+    color: white;
+    transition: 0.3s;
+  }
+  span.tw-tt:hover {
+    background-color:#28a745;
+    color: white;
+    transition: 0.3s;
+  } 
+  span.tw-t:hover {
+    background-color: #563d7c;
+    color: white;
+    transition: 0.3s;
+  }
+  span.tw-e:hover {
+    background-color:#007bff;
+    color: white;
+    transition: 0.3s;
+  } 
+  span.tw-r:hover {
+    background-color: #ffc107;
+    color: white;
+    transition: 0.3s;
+  }
+  span.tw-s:hover {
+    background-color: #6c757d;
+    color: white;
+    transition: 0.3s;
+  }
+
   .tw-myname span {
     color: #000000;
     transition: 0.3s;
