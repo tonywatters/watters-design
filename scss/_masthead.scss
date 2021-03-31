@@ -8,7 +8,7 @@
   // padding-bottom: 8rem;
   // background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/bg-masthead.jpg');
   background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%);
-  background-color: #ffc107;
+  // background-color: #ffc107;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,8 +25,12 @@
     padding: 10px;
   }
   .tw-myname span {
-    color: white;
+    color: #000000;
     transition: 0.3s;
+  }
+  .tw-ireland {
+    width: 80%;
+    margin: 0 auto;
   }
   .tw-ireland span {
     transition: 0.3s;
