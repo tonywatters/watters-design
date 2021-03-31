@@ -91,10 +91,7 @@ h6 {
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
-  background-color: #ffc107;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,6 +101,7 @@ h6 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  font-weight: 300;
 }
 
 .masthead .tw-myname span:hover {
@@ -114,8 +112,13 @@ h6 {
 }
 
 .masthead .tw-myname span {
-  color: white;
+  color: #000000;
   transition: 0.3s;
+}
+
+.masthead .tw-ireland {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .masthead .tw-ireland span {
