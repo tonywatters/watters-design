@@ -1,18 +1,18 @@
-# [Tony watters - Portfolio](https://watters888.github.io/watters-design)
+# [Tony watters - Portfolio](https://tonywatters.github.io/watters-design)
 
 ## Preview
 
-<!-- [![Watters Portfolio Preview](https://watters888.github.io/watters-design)](https://watters888.github.io/watters-design) -->
+<!-- [![Watters Portfolio Preview](https://tonywatters.github.io/watters-design)](https://tonywatters.github.io/watters-design) -->
 
-**[View Live Preview](https://watters888.github.io/watters-design)**
+**[View Live Preview](https://tonywatters.github.io/watters-design)**
 
 
 ## Download and Installation
 
 To begin using this template, choose one of the following options to get started:
 
-* Clone the repo: `git clone https://github.com/watters888/watters-design.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/watters888/watters-design.git)
+* Clone the repo: `git clone https://github.com/tonywatters/watters-design.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/tonywatters/watters-design.git)
 
 ## Usage
 
@@ -36,15 +36,15 @@ You must have npm installed globally in order to use this build environment.
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? contact **[Tony Watters](https://watters888.github.io)**.
+Have a bug or an issue with this template? contact **[Tony Watters](https://tonywatters.github.io)**.
 
 ## About
 
 I'm a product designer based in Co. Donegal, Ireland with experience in delivering end-to-end UX/UI design software products.
 
-Website was created by and is maintained by **[Tony Watters](https://watters888.github.io)**.
+Website was created by and is maintained by **[Tony Watters](https://tonywatters.github.io)**.
 
-* <https://watters888.github.io/watters-design/>
+* <https://tonywatters.github.io/watters-design/>
 
 
 
