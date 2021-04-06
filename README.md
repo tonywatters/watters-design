@@ -2,7 +2,7 @@
 
 ## Preview
 
-[![Watters Portfolio Preview](https://watters888.github.io/watters-design)](https://watters888.github.io/watters-design)
+<!-- [![Watters Portfolio Preview](https://watters888.github.io/watters-design)](https://watters888.github.io/watters-design) -->
 
 **[View Live Preview](https://watters888.github.io/watters-design)**
 
