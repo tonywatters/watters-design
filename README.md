@@ -2,10 +2,9 @@
 
 ## Preview
 
-<!-- [![Watters Portfolio Preview](https://tonywatters.github.io/watters-design)](https://tonywatters.github.io/watters-design) -->
+[![Watters Portfolio Preview](./img/webdesignpage.png)](https://tonywatters.github.io/watters-design)
 
 **[View Live Preview](https://tonywatters.github.io/watters-design)**
-
 
 ## Download and Installation
 
