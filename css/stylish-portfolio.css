@@ -195,6 +195,10 @@ h6 {
   transition: 0.3s;
 }
 
+.masthead .tw-logo-design {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/watters-header.png");
+}
+
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
