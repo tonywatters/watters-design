@@ -209,6 +209,11 @@ h6 {
   }
 }
 
+.icon-screen-smartphone:hover {
+  -webkit-animation: lock 1s cubic-bezier(0.36, 0.07, 0.57, 0.99) infinite;
+  animation: lock 1s cubic-bezier(0.36, 0.07, 0.57, 0.99) infinite;
+}
+
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
