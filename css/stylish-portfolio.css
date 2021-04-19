@@ -98,11 +98,11 @@ h6 {
 }
 
 .masthead h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
   padding: 0;
   font-weight: 300;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 .masthead span.tw-t:hover {
@@ -186,7 +186,7 @@ h6 {
 }
 
 .masthead .tw-ireland span a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #000;
 }
 
@@ -205,7 +205,7 @@ h6 {
     height: 100vh;
   }
   .masthead h1 {
-    font-size: 5.5rem;
+    font-size: 4rem;
   }
 }
 
