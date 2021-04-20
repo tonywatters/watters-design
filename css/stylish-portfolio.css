@@ -86,22 +86,30 @@ h6 {
 }
 
 .masthead {
+  padding-top: 20px;
   min-height: 30rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/responsive/mobile.png");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .masthead h1 {
-  font-size: 3rem;
+  font-size: 1.2rem;
   margin: 0;
   padding: 0;
-  padding-top: 40px;
+}
+
+.masthead h3.tw-ireland {
+  width: 45%;
+}
+
+.masthead h3 {
+  font-size: 0.9em;
 }
 
 .masthead span.tw-t:hover {
@@ -209,9 +217,53 @@ h6 {
   }
 }
 
-.icon-screen-smartphone:hover {
-  -webkit-animation: lock 1s cubic-bezier(0.36, 0.07, 0.57, 0.99) infinite;
-  animation: lock 1s cubic-bezier(0.36, 0.07, 0.57, 0.99) infinite;
+@media (min-width: 480px) {
+  .masthead {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/responsive/ipad.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .masthead h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  .masthead h3.tw-ireland {
+    width: 40%;
+  }
+  .masthead h3 {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masthead {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/responsive/computer.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .masthead h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+  }
+  .masthead h3.tw-ireland {
+    width: 60%;
+  }
 }
 
 /* Side Menu */
@@ -472,4 +524,42 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.tw-team-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tw-team-container .tw-team-names {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.tw-team-container .tw-team-names ul {
+  padding: 0px;
+  width: none;
+}
+
+.tw-team-container .tw-team-names li {
+  font-size: 1em;
+}
+
+@media (min-width: 1024px) {
+  .tw-team-container .tw-team-names {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  .tw-team-container .tw-team-names ul {
+    padding: 30px;
+    width: 180px;
+  }
+  .tw-team-container .tw-team-names li {
+    font-size: 1.2em;
+  }
 }

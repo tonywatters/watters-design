@@ -1,0 +1,36 @@
+.tw-team-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .tw-team-names {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        ul {
+            padding: 0px;
+            width: none;
+        }
+        li {
+            font-size: 1em;
+        }
+    }
+    
+    @media (min-width: 1024px) {
+        .tw-team-names{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            ul {
+                padding: 30px;
+                width: 180px;
+            }
+            li {
+                font-size: 1.2em;
+            }
+
+        }
+    }
+}
