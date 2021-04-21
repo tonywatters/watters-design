@@ -100,14 +100,26 @@ h6 {
   background-size: contain;
 }
 
+.masthead .tw-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.masthead .tw-image {
+  border-radius: 50%;
+  width: 60px;
+}
+
 .masthead h1 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 0;
   padding: 0;
 }
 
 .masthead h3.tw-ireland {
-  width: 45%;
+  width: 50%;
 }
 
 .masthead h3 {
@@ -209,6 +221,26 @@ h6 {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/watters-header.png");
 }
 
+.masthead .social {
+  padding: 20px 0;
+}
+
+.masthead .social .social-link {
+  display: block;
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+  font-size: 1.2rem;
+  background-color: #1D809F;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.masthead .social .social-link:hover {
+  background-color: #155d74;
+  text-decoration: none;
+}
+
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
@@ -237,10 +269,14 @@ h6 {
     padding: 0;
   }
   .masthead h3.tw-ireland {
-    width: 40%;
+    width: 50%;
   }
   .masthead h3 {
     font-size: 1em;
+  }
+  .masthead .tw-image {
+    border-radius: 50%;
+    width: 60px;
   }
 }
 
@@ -253,18 +289,22 @@ h6 {
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/responsive/computer.png");
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/responsive/desktop.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
   }
   .masthead h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 0;
     padding: 0;
   }
   .masthead h3.tw-ireland {
     width: 60%;
+  }
+  .masthead .tw-image {
+    border-radius: 50%;
+    width: 100px;
   }
 }
 
